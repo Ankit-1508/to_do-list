@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task List 2022</title>
+
+	<link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+
+	<header>   <!--The <header> element represents a container for introductory content or a set of navigational links.-->
+		<h1>Task List 2022</h1>
+		<form id="new-task-form">  <!--we are giving the id to form-->
+			<input 
+				type="text" 
+				name="new-task-input" 
+				id="new-task-input" 
+				placeholder="What do you have planned?" />
+			<input 
+				type="submit"
+				id="new-task-submit" 
+				value="Add task" />
+		</form>
+	</header>
+	<main>  <!--The main element represents the main content of the body of a document or application-->
+		<section class="task-list"><!--to create section-->
+			<h2>Tasks</h2>
+
+			<div id="tasks">
+			</div>
+		</section>
+	</main>
+
+	<script src="main.js"></script><!--we are adding this main.js file in this html file-->
+</body>
+</html> 
